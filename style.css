@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+ul.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+}
+li.menu-links {
+    margin: 30px 0;
+}
+a {
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+section.hero-container {
+    background-image: url("http://mvs.org/wp-content/uploads/2021/01/TOP-FINAL.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+div.left-container {
+    display: flex;
+    padding-top: 150px;
+}
+.hero-text p,
+h1 {
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    margin: 0 20px;
+    width: 400px;
+}
+.hero-text {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text button {
+    margin: 20px;
+    padding: 12px;
+    color: skyblue;
+    background-color: transparent;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    width: 400px;
+}
+.left-container img {
+    margin: 0 2%;
+}
+.hero-text button a {
+    color: skyblue;
+}
